@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Get SuiteConnections Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Precondition Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[BrowserSetup:chromeSucessfully]]>
+    </line>
+    <line>
+      <![CDATA[login Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Register with Valid Data Sucess]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Closebrowser Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[postcondition Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Terminate Suiteconnection Done Sucessful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-29T15:43:06 IST" name="FunctionalityTestSuite" finished-at="2024-08-29T15:43:39 IST" duration-ms="32523">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T15:43:06 IST" name="Test" finished-at="2024-08-29T15:43:39 IST" duration-ms="32523">
+      <class name="com.myntrajio.RegisterTest.RegisterTest">
+        <test-method is-config="true" signature="getSuiteConnections()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:06 IST" name="getSuiteConnections" finished-at="2024-08-29T15:43:06 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get SuiteConnections Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSuiteConnections -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:06 IST" name="precondition" finished-at="2024-08-29T15:43:06 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Precondition Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:07 IST" name="browserSetup" finished-at="2024-08-29T15:43:26 IST" duration-ms="19477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BrowserSetup:chromeSucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:26 IST" name="login" finished-at="2024-08-29T15:43:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="registervalidata()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:26 IST" name="registervalidata" finished-at="2024-08-29T15:43:38 IST" duration-ms="12374" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register with Valid Data Sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registervalidata -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:38 IST" name="Logout" finished-at="2024-08-29T15:43:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:38 IST" name="closebrowser" finished-at="2024-08-29T15:43:39 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closebrowser Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:39 IST" name="postcondition" finished-at="2024-08-29T15:43:39 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[postcondition Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="terminateSuiteconnection()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@6e9175d8]" started-at="2024-08-29T15:43:39 IST" name="terminateSuiteconnection" finished-at="2024-08-29T15:43:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminate Suiteconnection Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateSuiteconnection -->
+      </class> <!-- com.myntrajio.RegisterTest.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- FunctionalityTestSuite -->
+</testng-results>
